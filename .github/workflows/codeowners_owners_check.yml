@@ -1,0 +1,22 @@
+name: Codeowners owners check
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  codeowners_owners_check:
+    name: codeowners_owners_check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: exec generate_codeowners_owners.rb
+        run: ruby bin/generate_codeowners_owners.rb
+
+      - name: check file diff
+        run: |
+          echo "以下の差分が発生している場合は、 `ruby bin/generate_codeowners_owners.rb` を実行して差分を解消してください。"
+          git --no-pager diff && test -z "$(git status -s)"
