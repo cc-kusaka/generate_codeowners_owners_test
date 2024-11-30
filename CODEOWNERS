@@ -1,15 +1,15 @@
 data/owner_a @cc-kusaka
-data/owner_a_or_b @cc-kusaka @cc-kusama
-data/owner_a_or_b/owner_a.txt @cc-kusaka
-data/owner_b @cc-kusama
-data/owner_c @cc-harashima
-data/team_a @coincheckjp/g-app-arch
-data/team_a/owner_b.txt @cc-kusama
-data/common/owner_c @cc-harashima
+#data/owner_a_or_b @cc-kusaka @cc-kusama
+#data/owner_a_or_b/owner_a.txt @cc-kusaka
+#data/owner_b @cc-kusama
+#data/owner_c @cc-harashima
+#data/team_a @coincheckjp/g-app-arch
+#data/team_a/owner_b.txt @cc-kusama
+#data/common/owner_c @cc-harashima
 
 codeowners_owners/cc-kusaka.txt @cc-kusaka
-codeowners_owners/cc-kusama.txt @cc-kusama
-codeowners_owners/cc-harashima.txt @cc-harashima
-codeowners_owners/cc-osone.txt @cc-osone
-codeowners_owners/coincheckjp/g-app-arch.txt @coincheckjp/g-app-arch
+#codeowners_owners/cc-kusama.txt @cc-kusama
+#codeowners_owners/cc-harashima.txt @cc-harashima
+#codeowners_owners/cc-osone.txt @cc-osone
+#codeowners_owners/coincheckjp/g-app-arch.txt @coincheckjp/g-app-arch
 
