@@ -11,6 +11,7 @@ module GenerateCodeownersOwners
     check_errors = check_exist_self(parsed_data)
 
     unless parse_errors.empty? && check_errors.empty?
+      puts "CODEOWNERS ファイルの内容が不正です。以下のエラーの内容を修正してください。"
       (parse_errors + check_errors).each { |e| puts "[ERROR] #{e}" }
       exit(1)
     end
