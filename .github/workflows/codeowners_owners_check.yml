@@ -18,5 +18,5 @@ jobs:
 
       - name: check file diff
         run: |
-          echo "以下の差分が発生している場合は、 `ruby bin/generate_codeowners_owners.rb` を実行して差分を解消してください。"
+          echo "以下の差分が発生している場合は、 'ruby bin/generate_codeowners_owners.rb' を実行して差分を解消してください。"
           git --no-pager diff && test -z "$(git status -s)"
