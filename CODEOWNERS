@@ -1,4 +1,7 @@
-# コメント
+bin/generate_codeowners_owners.rb @org/maintain-team
+.github/workflows/codeowners_owners_check.yml @org/maintain-team
+codeowners_owners/org/maintain-team.txt @org/maintain-team
+
 data/owner_a @owner_a
 data/owner_a_or_b/owner_a.txt @owner_a
 data/owner_a_or_b @owner_a @owner_b
