@@ -39,11 +39,11 @@ module GenerateCodeownersOwners
           next
         end
         if (same_path = parsed_data[:path_hash][path])
-          errors.push "CODEOWNERS ファイルのパスに、重複があります。 (#{same_path.index}行目, #{index}行目)"
+          errors.push "CODEOWNERS ファイルのパスに、重複があります。 (#{same_path[:index]}行目, #{index}行目)"
           next
         end
         if (child_path = parsed_data[:path_hash].find { |_, v| v[:path].start_with?("#{path}/") }&.dig(1))
-          errors.push "CODEOWNERS ファイルのパスに、親ディレクトリによる上書きの定義があります。 (#{child_path.index}行目, #{index}行目)"
+          errors.push "CODEOWNERS ファイルのパスに、親ディレクトリによる上書きの定義があります。 (#{child_path[:index]}行目, #{index}行目)"
           next
         end
 
