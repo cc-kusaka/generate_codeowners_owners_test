@@ -1,2 +1,0 @@
-data/common/owner_c @cc-harashima
-data/owner_c @cc-harashima
