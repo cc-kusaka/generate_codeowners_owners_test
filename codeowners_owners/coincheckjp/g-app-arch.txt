@@ -1,2 +1,0 @@
-data/team_a @coincheckjp/g-app-arch
-!data/team_a/owner_b.txt
