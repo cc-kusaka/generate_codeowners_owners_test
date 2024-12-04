@@ -1,0 +1,2 @@
+.github/workflows/codeowners_owners_check.yml @org/maintain-team
+bin/generate_codeowners_owners.rb @org/maintain-team
