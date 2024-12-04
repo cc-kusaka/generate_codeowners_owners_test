@@ -1,12 +1,31 @@
-bin/generate_codeowners_owners.rb @cc-kusaka
-.github/workflows/codeowners_owners_check.yml @cc-kusaka
-codeowners_owners/cc-kusaka.txt @cc-kusaka
+bin/generate_codeowners_owners.rb @org/maintain-team
+.github/workflows/codeowners_owners_check.yml @org/maintain-team
+codeowners_owners/org/maintain-team.txt @org/maintain-team
 
-data/owner_a @cc-kusama
-data/owner_a_or_b @cc-kusama @cc-osone
-data/owner_a_or_b/owner_a.txt @cc-kusama
+data/owner_a @owner_a
+data/owner_a_or_b @owner_a @owner_b
+data/owner_a_or_b/important.txt @owner_a
 
-codeowners_owners/cc-kusama.txt @cc-kusama
-codeowners_owners/cc-osone.txt @cc-osone
+codeowners_owners/owner_a.txt @owner_a
+codeowners_owners/owner_b.txt @owner_b
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

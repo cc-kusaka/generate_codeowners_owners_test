@@ -1,2 +1,0 @@
-data/owner_a_or_b @cc-kusama @cc-osone
-!data/owner_a_or_b/owner_a.txt

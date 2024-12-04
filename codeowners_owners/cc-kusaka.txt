@@ -1,2 +1,0 @@
-.github/workflows/codeowners_owners_check.yml @cc-kusaka
-bin/generate_codeowners_owners.rb @cc-kusaka

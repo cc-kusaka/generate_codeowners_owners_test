@@ -1,0 +1,3 @@
+data/owner_a @owner_a
+data/owner_a_or_b @owner_a @owner_b
+data/owner_a_or_b/important.txt @owner_a
