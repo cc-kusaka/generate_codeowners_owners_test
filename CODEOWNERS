@@ -6,7 +6,7 @@ data/owner_a @cc-kusama
 data/owner_a_or_b @cc-kusama @cc-osone
 data/owner_a_or_b/owner_a.txt @cc-kusama
 
-codeowners_owners/owner_a.txt @cc-kusama
-codeowners_owners/owner_b.txt @cc-osone
+codeowners_owners/cc-kusama.txt @cc-kusama
+codeowners_owners/cc-osone.txt @cc-osone
 
 

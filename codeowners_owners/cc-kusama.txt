@@ -1,5 +1,3 @@
-data/owner_a_or_b @cc-kusaka @cc-kusama @cc-osone
-data/owner_b @cc-kusama
-data/team_a/owner_b.txt @cc-kusama
-!data/owner_a_or_b/owner_a.txt
-!data/owner_b/owner_d
+data/owner_a @cc-kusama
+data/owner_a_or_b @cc-kusama @cc-osone
+data/owner_a_or_b/owner_a.txt @cc-kusama
