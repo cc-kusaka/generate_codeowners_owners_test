@@ -4,7 +4,7 @@ bin/generate_codeowners_owners.rb @cc-kusaka
 data/owner_a @cc-kusaka
 data/owner_a_or_b @cc-kusaka @cc-kusama
 data/owner_a_or_b/owner_a.txt @cc-kusaka
-data/owner_b @cc-kusama
+data/owner_b @cc-kusama @cc-osone
 data/owner_c @cc-osone
 #data/team_a @coincheckjp/g-app-arch
 data/team_a/owner_b.txt @cc-kusama

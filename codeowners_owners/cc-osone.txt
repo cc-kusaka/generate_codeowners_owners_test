@@ -1,2 +1,3 @@
 data/common/owner_c @cc-osone
+data/owner_b @cc-kusama @cc-osone
 data/owner_c @cc-osone

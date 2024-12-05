@@ -1,4 +1,4 @@
 data/owner_a_or_b @cc-kusaka @cc-kusama
-data/owner_b @cc-kusama
+data/owner_b @cc-kusama @cc-osone
 data/team_a/owner_b.txt @cc-kusama
 !data/owner_a_or_b/owner_a.txt
